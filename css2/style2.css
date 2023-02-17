@@ -1,0 +1,85 @@
+@font-face{
+    font-family: "font";
+    src:url('../font/Sherlock Vintage.otf')format('opentype');
+  
+}
+
+button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: none;
+    border: none;
+    font-family: verdana;
+    height: 60px;
+    width: 300px;
+    line-height: 60px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    letter-spacing: .3em;
+    cursor: pointer;
+    margin-left: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.0em;
+    position: relative;
+}
+
+.btn1::before,
+.btn2::before,
+.btn3::before,
+.btn4::before{
+    content: "";
+    height: 58px;
+    width: 100%;
+    background: #838060;
+    position: absolute;
+    top:0;
+    z-index: -1;
+}
+
+.btn1::before{
+    transform: scaleY(0);
+    transform-origin: center;
+    transition: all .2s;
+}
+
+.btn1:hover::before{
+    transform: scaleY(1);
+}
+
+.btn2::before{
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: all .2s;
+}
+
+.btn2:hover::before{
+    transform: scaleX(1);
+}
+
+.btn3::before{
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all .2s;
+}
+
+.btn3:hover::before{
+    transform: scaleY(1);
+}
+
+.btn4::before{
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all .2s;
+}
+
+.btn4:hover::before{
+    transform: scaleX(1);
+}
+.button
+{
+    align-items: center;
+}
