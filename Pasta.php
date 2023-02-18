@@ -1,18 +1,18 @@
 <?php 
 	include 'connectionIndex.php';
     
-    $queryT = mysqli_query($link, "SELECT * FROM product WHERE p_name != '' AND p_quantity_onhand != 0 AND p_type = 'Traditional Snacks'");
+    $queryT = mysqli_query($link, "SELECT * FROM product WHERE p_name != '' AND p_type = 'Pasta'");
    
     
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<title>Products</title>
+<title>Pasta</title>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>The Urban Bites</title>
+    <title>The Soru Station</title>
     <script src="all.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./css2/styleProduct.css">
@@ -21,7 +21,7 @@
 </head>
 
 
-<body bgcolor=" #bebca0" >
+<body bgcolor=" #8779b1" >
 
 <div class="site-content">
                 <header class="topbar">
@@ -34,11 +34,7 @@
                             <a href="#"><img src="./icons/search.svg" alt=""></a>
                         </div>
                         <div class="auth flex items-center">
-						<div>
-                                <img src="./icons/edit.svg" alt="">
-                                <a href="registerSeller.php">Become A Seller</a>
-							</div>
-							<span class="divider">|</span>
+						
                             <div>
                                 <img src="./icons/user-icon.svg" alt="">
                                 <a href="login.php">Log in</a>
@@ -64,18 +60,18 @@
                             <div class="contact flex items-center">
                                 <img src="./icons/phone.svg" alt="" width="20" height="20">
                                 <div>
-                                    <h5>Call US: 05-2413417</h5>
-                                    <h6>E-mail : support@theurbanbites.com</h6>
+                                    <h5>Call US: 010-554 7701</h5>
+                                    <h6>E-mail : support@thesorustation.com</h6>
                                 </div>
                             </div>
                             <div class="branding">
-                            <img src="images/3182.png" alt=""width="150" height="150">
+                            <img src="images/logo.png" alt=""width="150" height="150">
                             </div>
                             <div class="time flex items-center">
                                 <img src="./icons/clock.svg" alt="" width="20" height="20" >
                                 <div>
                                     <h5>Working Hours:</h5>
-                                    <h6>Mon - Sat (8.00am - 12.00am)</h6>
+                                    <h6>Mon - Sun (8:00pm - 11:00pm)</h6>
                                 </div>
                             </div>
                         </div>
@@ -83,9 +79,9 @@
                     <div class="navbar magic-shadow">
                         <div class="container flex justify-center">
                             <a href="index.php">Home</a>
-                            <a href="about.php">About us</a>
-                            <a href="groupmate.html">Our Teams</a>
-                            <a href="product.php">Products</a>
+                            <a href="about.php">Our Story</a>
+                            <a href="product.php">Menu</a>
+                            <a href="reservation.php">Reservation</a>
                             <a href="contact.php">Contact</a>
                         </div>
                     </div>
@@ -96,57 +92,50 @@
             <!--box-1--------------------->
             <li class="item">
                 <div class="feature-box">
-                    <a href="TraditionalSnacks.php">
-                        <img src="images/feature_1.png">
+                    <a href="Pasta.php">
+                        <img src="images/pasta bolognese.jpg">
                     </a>
                 </div>
-                <span>Traditional Snacks</span>
+                <span>Pasta</span>
             </li>
             <!--box-2--------------------->
             <li class="item">
                 <div class="feature-box">
-                    <a href="FruitSnacks.php">
-                        <img src="images/feature_2.png">
+                    <a href="Platter.php">
+                        <img src="images/Big Platter.jpg">
                     </a>
                 </div>
-                <span>Fruit Snacks</span>
+                <span>Platter</span>
             </li>
             <!--box-3--------------------->
             <li class="item">
                 <div class="feature-box">
-                    <a href="HealthySnacks.php">
-                        <img src="images/feauture_3.png">
+                    <a href="MixGrill.php">
+                        <img src="images/Asian Fusion.jpg">
                     </a>
                 </div>
-                <span>Healthy Snacks</span>
+                <span>Mix Grill</span>
             </li>
             <!--box-4--------------------->
             <li class="item">
                 <div class="feature-box">
-                    <a href="Chocojar.php">
-                        <img src="images/feature_4.png">
+                    <a href="Side&Bites.php">
+                        <img src="images/Onion Ring.jpg">
                     </a>
                 </div>
-                <span>Chocojar</span>
+                <span>Side & Bites</span>
             </li>
             <!--box-5--------------------->
             <li class="item">
                 <div class="feature-box">
                     <a href="Beverage.php">
-                        <img src="images/feature_5.png">
+                        <img src="images/root beer.jpg">
                     </a>
                 </div>
                 <span>Beverage</span>
             </li>
-              <!--box-6--------------------->
-              <li class="item">
-                <div class="feature-box">
-                    <a href="Others.php">
-                        <img src="images/feature_7.png">
-                    </a>
-                </div>
-                <span>Others</span>
-            </li>
+             
+            
             
           </ul>
     <!--end of product categories-->
@@ -224,7 +213,7 @@
                     <div class="container">
                         <div class="box">
                             <h3>About us</h3>
-                            <p>The Urban Bites was started as an initiative that supports the local community</p>
+                            <p>The Soru Station was started as an initiative that supports the local community</p>
                             <button class="btn btn-secondary">Read More</button>
                         </div>
                         <div class="box">
@@ -280,7 +269,7 @@
                 </footer>
                 <footer class="copyright">
                     <div>
-                        Copyright ©️ 2020 .All rights reserved by the urban bites</a>.
+                        Copyright ©️ 2020 .All rights reserved by the soru station</a>.
                     </div>
                 </footer>
             </div>

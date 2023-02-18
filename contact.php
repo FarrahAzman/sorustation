@@ -53,8 +53,8 @@
                             <div class="contact flex items-center">
                                 <img src="./icons/phone.svg" alt="" width="20" height="20">
                                 <div>
-                                    <h5>Call US: 05-2413417</h5>
-                                    <h6>E-mail : support@theurbanbites.com</h6>
+                                    <h5>Call US: 010-554 7701</h5>
+                                    <h6>E-mail : support@thesorustation.com</h6>
                                 </div>
                             </div>
                             <div class="branding">
@@ -64,7 +64,7 @@
                                 <img src="./icons/clock.svg" alt="" width="20" height="20" >
                                 <div>
                                     <h5>Working Hours:</h5>
-                                    <h6>Mon - Sat (8.00am - 12.00am)</h6>
+                                    <h6>Mon - Sun (8:00pm - 11:00pm)</h6>
                                 </div>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
 		
 	</div>
 	<div class="map">
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.733046448322!2d101.6035586139834!3d3.164873453940257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4fcd64e38219%3A0xb6ae68fc0cd12338!2sUrban%20Bites!5e0!3m2!1sen!2smy!4v1609691810172!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	<iframe src="https://maps.google.com/maps?q=sorustation,%20shah%20alam%20seksyen%2013&t=&z=13&ie=UTF8&iwloc=&output=embed" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
     
 </section>
@@ -179,7 +179,7 @@
                 </footer>
                 <footer class="copyright">
                     <div>
-                        Copyright © 2020 .All rights reserved by the urban bites</a>.
+                        Copyright © 2020 .All rights reserved by the soru station</a>.
                     </div>
                 </footer>
             </div>

@@ -2,7 +2,7 @@
 
 	session_start();
 
-	$link = mysqli_connect("localhost", "root", "", "urbanbites") or die("Connection failed");
+	$link = mysqli_connect("localhost", "admin", "adminpass", "sorustation") or die("Connection failed");
 
 
 

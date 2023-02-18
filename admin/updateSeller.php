@@ -130,7 +130,7 @@ $row = mysqli_fetch_array($query2);
                                 <img src="../icons/phone.svg" alt="" width="20" height="20">
                                 <div>
                                     <h5>Call US: 05-2413417</h5>
-                                    <h6>E-mail : support@theurbanbites.com</h6>
+                                    <h6>E-mail : support@thesorustation".com</h6>
                                 </div>
                             </div>
                             <div class="branding">

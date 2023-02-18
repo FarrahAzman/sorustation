@@ -100,8 +100,8 @@ form.sbox::after {
                             <div class="contact flex items-center">
                                 <img src="./icons/phone.svg" alt="" width="20" height="20">
                                 <div>
-                                    <h5>Call US: 05-2413417</h5>
-                                    <h6>E-mail : support@theurbanbites.com</h6>
+                                    <h5>Call US: 010-554 7701</h5>
+                                    <h6>E-mail : support@thesorustation.com</h6>
                                 </div>
                             </div>
                             <div class="branding">
@@ -111,7 +111,7 @@ form.sbox::after {
                                 <img src="./icons/clock.svg" alt="" width="20" height="20" >
                                 <div>
                                     <h5>Working Hours:</h5>
-                                    <h6>Mon - Sat (8.00am - 12.00am)</h6>
+                                    <h6>Mon - Sun (8:00pm - 11:00pm)</h6>
                                 </div>
                             </div>
                         </div>

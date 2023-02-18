@@ -18,12 +18,12 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<title>The Urban Bites</title>
+<title>The Soru Station</title>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>The Urban Bites</title>
+    <title>The Soru Station</title>
     <script src="../all.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="css2/style.css">
@@ -88,7 +88,7 @@
 }
 </style>
 
-<body bgcolor=" #bebca0" >
+<body bgcolor=" #8779b1" >
 
 <div class="site-content">
                 <header class="topbar">
@@ -101,11 +101,7 @@
                             <a href="#"><img src="./icons/search.svg" alt=""></a>
                         </div>
                         <div class="auth flex items-center">
-						<div>
-                                <img src="./icons/edit.svg" alt="">
-                                <a href="registerSeller.php">Become A Seller</a>
-							</div>
-							<span class="divider">|</span>
+						
                             <div>
                                 <img src="./icons/user-icon.svg" alt="">
                                 <a href="login.php">Log in</a>
@@ -131,18 +127,18 @@
                             <div class="contact flex items-center">
                                 <img src="./icons/phone.svg" alt="" width="20" height="20">
                                 <div>
-                                    <h5>Call US: 05-2413417</h5>
-                                    <h6>E-mail : support@theurbanbites.com</h6>
+                                    <h5>Call US: 010-554 7701</h5>
+                                    <h6>E-mail : support@thesorustation.com</h6>
                                 </div>
                             </div>
                             <div class="branding">
-                            <img src="images/3182.png" alt=""width="150" height="150">
+                            <img src="images/logo.png" alt=""width="250" height="250">
                             </div>
                             <div class="time flex items-center">
                                 <img src="./icons/clock.svg" alt="" width="20" height="20" >
                                 <div>
                                     <h5>Working Hours:</h5>
-                                    <h6>Mon - Sat (8.00am - 12.00am)</h6>
+                                    <h6>Mon - Sun (8:00pm - 11:00pm)</h6>
                                 </div>
                             </div>
                         </div>
@@ -150,9 +146,9 @@
                     <div class="navbar magic-shadow">
                         <div class="container flex justify-center">
                             <a href="index.php">Home</a>
-                            <a href="about.php">About us</a>
-                            <a href="groupmate.html">Our Teams</a>
-                            <a href="product.php">Products</a>
+                            <a href="about.php">Our Story</a>
+                            <a href="product.php">Menu</a>
+                            <a href="reservation.php">Reservation</a>
                             <a href="contact.php">Contact</a>
                         </div>
                     </div>
@@ -184,9 +180,7 @@
 						</tr>
 						<tr>
                             <td><p>Price :<b><?php echo $row['p_price']; ?></b></p></td>
-						<tr>
-                            <td><p>Quantity Available :<b><?php echo $row['p_quantity_onhand']; ?></b></p></td>
-						</tr>
+						
 
 						<tr>
 							<td><p><hr></p></td>
@@ -219,7 +213,7 @@
                     <div class="container">
                         <div class="box">
                             <h3>About us</h3>
-                            <p>The Urban Bites was started as an initiative that supports the local community</p>
+                            <p>The Soru Station was started as an initiative that supports the local community</p>
                             <button class="btn btn-secondary">Read More</button>
                         </div>
                         <div class="box">
@@ -275,7 +269,7 @@
                 </footer>
                 <footer class="copyright">
                     <div>
-                        Copyright ©️ 2020 .All rights reserved by the urban bites</a>.
+                        Copyright ©️ 2020 .All rights reserved by the soru station</a>.
                     </div>
                 </footer>
 </div>
